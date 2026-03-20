@@ -3,11 +3,9 @@ const elBox = document.querySelector('#box');
 // Pure function that returns the next state,
 // given the current state and sent event
 function transition(state, event) {
-  switch (
-    state
+  switch (state) {
     // Add your state/event transitions here
     // to determine and return the next state
-  ) {
   }
 }
 
