@@ -8,6 +8,7 @@ function transition(state, event) {
     // Add your state/event transitions here
     // to determine and return the next state
   ) {
+    // No transitions defined yet
   }
 }
 
