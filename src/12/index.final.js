@@ -6,7 +6,7 @@ const randomFetch = () => {
   return new Promise((res, rej) => {
     setTimeout(() => {
       if (Math.random() < 0.5) {
-        rej('Fetch failed!');
+        rej(new Error('Fetch failed!'));
       } else {
         res('Fetch succeeded!');
       }
