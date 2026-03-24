@@ -51,4 +51,3 @@ elBox.addEventListener("click", (event) => {
   service.send("FETCH");
 });
 
-test_random_string;
