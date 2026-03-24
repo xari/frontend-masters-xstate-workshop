@@ -1,5 +1,5 @@
 import { createMachine } from "xstate";
-import { createMachineTEST } from "xstate";
+import { createMachineTEST_CREATE_ISSUE } from "xstate";
 
 const elOutput = document.querySelector("#output");
 
