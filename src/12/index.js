@@ -1,4 +1,4 @@
-import { createMachine, assign, interpret, test } from "xstate";
+import { createMachine, assign, interpret } from "xstate";
 
 const elBox = document.querySelector("#box");
 
