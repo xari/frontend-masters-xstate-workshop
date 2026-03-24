@@ -9,7 +9,7 @@ function transition(state, event) {
 }
 
 // Keep track of your current state
-let currentStateTEST = undefined;
+let currentStateTEST;
 
 function send(event) {
   // Determine the next value of `currentState`
