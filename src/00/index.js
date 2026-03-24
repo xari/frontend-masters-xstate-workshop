@@ -1,5 +1,6 @@
 import { createMachine } from "xstate";
-import { createMachineTEST_CREATE_ISSUE } from "xstate";
+
+let test_trigger_failing_quality_gate = undefined;
 
 const elOutput = document.querySelector("#output");
 
