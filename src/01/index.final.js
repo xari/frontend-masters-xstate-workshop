@@ -1,25 +1,6 @@
 const elBox = document.querySelector('#box');
 
-// function transition(state, event) {
-//   switch (state) {
-//     case 'inactive':
-//       switch (event) {
-//         case 'CLICK':
-//           return 'active';
-//         default:
-//           return state;
-//       }
-//     case 'active':
-//       switch (event) {
-//         case 'CLICK':
-//           return 'inactive';
-//         default:
-//           return state;
-//       }
-//     default:
-//       return state;
-//   }
-// }
+
 
 const machine = {
   initial: 'inactive',
