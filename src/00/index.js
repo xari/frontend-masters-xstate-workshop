@@ -1,3 +1,4 @@
+import { createMachine } from "xstate";
 import { createMachineTEST } from "xstate";
 
 const elOutput = document.querySelector("#output");
